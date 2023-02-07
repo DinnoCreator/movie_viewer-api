@@ -22,7 +22,7 @@ AppModule = __decorate([
             config_1.ConfigModule.forRoot({ isGlobal: true }),
             typeorm_1.TypeOrmModule.forRoot({
                 type: 'postgres',
-                host: 'dpg-ce40bkha6gdkr7rutou0-a.oregon-postgres.render.com',
+                host: 'dpg-ce40bkha6gdkr7rutou0-a',
                 port: parseInt('5432'),
                 username: 'postgres1',
                 password: process.env.DB_PASSWORD,
